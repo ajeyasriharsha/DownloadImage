@@ -10,3 +10,5 @@ This has been created to add a loading indicator on the passing parent and the s
 
 AsyncImageView
 This class represents the asynchronous download with an including completion handler which passes the downloaded image data and a boolean representing success or a failure of the download operation
+
+The downloaded images are saved to the cache so that the same would be return if it is in the cache or new download would be initiated.
